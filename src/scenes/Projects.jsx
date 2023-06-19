@@ -36,7 +36,7 @@ const Projects = () => {
     <section id="Projects" className="pt-48 pb-48">
       {/* HEADINGS */}
       <motion.div
-        className="md:w-2/5 mx-auto text-center"
+        className="md:w-2/4 mx-auto text-center"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
