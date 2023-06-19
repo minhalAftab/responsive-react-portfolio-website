@@ -33,7 +33,7 @@ const Project = ({ title }) => {
 
 const Projects = () => {
   return (
-    <section id="Projects" className="pt-48 pb-48">
+    <section id="projects" className="pt-48 pb-48">
       {/* HEADINGS */}
       <motion.div
         className="md:w-2/4 mx-auto text-center"
