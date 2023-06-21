@@ -21,10 +21,12 @@ function App() {
       if (window.scrollY === 0) {
         setIsTopOfPage(true);
         setSelectedPage("home");
+      } else {
+        setIsTopOfPage(false);
       }
     };
-    window.addEventListener("scroll", handleScroll());
-    return () => window.removeEventListener("scroll", handleScroll());
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
     <div className="app bg-deep-blue">
